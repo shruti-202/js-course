@@ -108,19 +108,19 @@ console.log(sumArr([10, 2, 3, 4, 5], 9));
 //Q.13Write a function that takes an array and returns the sum of first and last element.
 
 // const sumArr = arr => arr[0] + arr.pop();
-const sumArr = (arr) => arr[0] + arr[arr.length - 1];
+const sumArrr = (arr) => arr[0] + arr[arr.length - 1];
 
-console.log(sumArr([11, 2, 23, 9]));
+console.log(sumArrr([11, 2, 23, 9]));
 
 //Q.14. Write a function that takes an object representing a person's information (name, age, occupation) and returns a template literal that includes the person's name and age in a sentence.
 
 const personalData = ({ name, age, occupation }) =>
   `${name} is ${age} years old and works as a ${occupation}`;
 
-const person = {
+const personn = {
   name: "Tanishk",
   age: 25,
   occupation: "Software Engineer",
 };
 
-console.log(personalData(person));
+console.log(personalData(personn));
